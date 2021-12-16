@@ -7,7 +7,7 @@
 	"type": "REST",
 	"lang": {
 		"en-US": {
-			"name": "SBT Outbound Messaging",
+			"name": "MBO HelloWorld",
 			"description": "To send the Outbound Messaging to SBT via COmms Gateway"
 		}
 	},
@@ -37,8 +37,8 @@
 		}
 	},
 	"wizardSteps": [
-		{"key": "eventdefinitionkey", "label": "Welcome"},
-		{"key": "idselection", "label": "ID Selection"}
+		{"key": "eventdefinitionkey", "label": "Welcome"}
+		
 	],
 	"userInterfaces": {
 		"runningModal": {
