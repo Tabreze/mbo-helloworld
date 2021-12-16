@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>SBT Outbound Messaging</title>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script data-main="js/main.js" type="text/javascript" src="js/require.js"></script>
+
+	<style type="text/css">
+		body {
+			padding: 10px;
+			margin: 0;
+			font-size: 25px;
+			color: #16325c;
+			font-family: "Salesforce Sans", Arial, sans-serif;
+		}
+
+		.step {
+			display: none;
+		}
+
+		#step1 {
+			display: block;
+		}
+
+		input {
+			font-family: inherit;
+			display: block;
+			padding: 10px 10px;
+			font-size: 18px;
+			color: #16325c;
+			background-color: #ffffff;
+			background-image: none;
+			border: 2px solid #d8dde6;
+			border-radius: 0.25rem;
+			-webkit-box-shadow: none;
+			box-shadow: none;
+		}
+
+		input[type=text] {
+			width: 30%;
+			margin-bottom: 2px;
+		}
+
+		.inputLabel {
+			margin-bottom: 5px;
+			font-size: 10pt;
+			color: #808080;
+			text-transform: uppercase;
+		}
+	</style>
+</head>
+<body>
+	<div id="step1" class="step" style="text-align:center">
+		<p>Hello World</p>
+	</div>
+	<div id="step2" class="step">
+		<p>Select Template ID</p>
+		<p class="inputLabel">Template ID</p>
+		<input id="select-id" placeholder="ID to pass to the backend" type="text" />
+		<select id="select-id-dropdown">
+		</select>
+	</div>
+	<div id="step3" class="step">
+		<p>Select SMS ID</p>
+		<p class="inputLabel">SMS ID</p>
+		<input id="select-id" placeholder="ID to pass to the backend" type="text" />
+		<select id="select-id-dropdown">
+		</select>
+	</div>
+</body>
+</html>

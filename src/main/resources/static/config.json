@@ -1,0 +1,70 @@
+{
+	"key": "3d16ff66-e59b-4502-881b-11dcc783b07f",
+	"metaData": {
+		"icon": "images/icon.png",
+		"iconSmall": "images/icon_small.png"
+	},
+	"type": "REST",
+	"lang": {
+		"en-US": {
+			"name": "SBT Outbound Messaging",
+			"description": "To send the Outbound Messaging to SBT via COmms Gateway"
+		}
+	},
+	"workflowApiVersion": "1.1",
+	"configurationArguments": {
+		"applicationExtensionKey": "3d16ff66-e59b-4502-881b-11dcc783b07f",
+		"save": {
+			"url": "https://springboot-iframe-helloworld.herokuapp.com/activity/save",
+			"verb": "POST",
+			"body": "",
+			"useJwt": false
+			
+		},
+		"publish": {
+			"url": "https://springboot-iframe-helloworld.herokuapp.com/activity/publish",
+			"verb": "POST",
+			"body": "",
+			"useJwt": false
+			
+		},
+		"validate": {
+			"url": "https://springboot-iframe-helloworld.herokuapp.com/activity/validate",
+			"verb": "POST",
+			"body": "",
+			"useJwt": false
+			
+		}
+	},
+	"wizardSteps": [
+		{"key": "eventdefinitionkey", "label": "Welcome"},
+		{"key": "idselection", "label": "ID Selection"}
+	],
+	"userInterfaces": {
+		"runningModal": {
+			"url": "runningModal.html"
+		},
+		"runningHover": {
+			"url": "runningHover.html"
+		}
+	},
+	"arguments": {
+		"execute": {
+			"inArguments": [],
+			"outArguments": [],
+			"url": "https://springboot-iframe-helloworld.herokuapp.com/activity/execute",
+			"verb": "POST",
+			"body": "",
+			"header": "",
+			"format": "json",
+			"useJwt": false,
+			
+			"timeout": 90000
+		}
+	},
+	"edit": {
+		"url": "https://springboot-iframe-helloworld.herokuapp.com/index.html",
+		"height": 200,
+		"width": 480
+	}
+}
