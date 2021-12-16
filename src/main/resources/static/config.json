@@ -1,5 +1,5 @@
 {
-	"key": "3d16ff66-e59b-4502-881b-11dcc783b07f",
+	"key": "b5f0745a-d5f0-4b15-b1a9-0ed5792d538f",
 	"metaData": {
 		"icon": "images/icon.png",
 		"iconSmall": "images/icon_small.png"
@@ -13,7 +13,7 @@
 	},
 	"workflowApiVersion": "1.1",
 	"configurationArguments": {
-		"applicationExtensionKey": "3d16ff66-e59b-4502-881b-11dcc783b07f",
+		"applicationExtensionKey": "b5f0745a-d5f0-4b15-b1a9-0ed5792d538f",
 		"save": {
 			"url": "https://springboot-iframe-helloworld.herokuapp.com/activity/save",
 			"verb": "POST",
